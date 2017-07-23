@@ -1,0 +1,19 @@
+{
+  "name": "myalmanaclanding",
+  "version": "1.0.0",
+  "description": "The landing and information page about the MyAlmanac App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.4.3",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "scroll-parallax": "^2.0.2"
+  }
+}
