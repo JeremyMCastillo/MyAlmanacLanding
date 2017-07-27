@@ -1,5 +1,29 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables"
 
+@font-face
+  font-family: "lmroman"
+  src: url('fonts/lmroman8-regular.otf') format('opentype')
 
+$family-lmroman: "lmroman", serif
+
+$family-primary: $family-lmroman
 
 @import "../node_modules/bulma/bulma"
+
+section.section
+  background-color: #FFFFFF
+  position: relative
+  min-height: 700px
+
+.hero
+  height: 500px
+
+.hero img
+  position: absolute
+
+span.bg-mask
+  display: block
+  height: 100%
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.3)
+  position: absolute

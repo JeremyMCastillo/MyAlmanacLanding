@@ -10,7 +10,8 @@ app.use(express.static(__dirname + '/public'));
 app.get("/", (req, res) => {
   res.render('template.hbs', {
     headingTitle: 'MyAlmanac',
-    content: 'home'
+    content: 'home',
+    home: true
   });
 });
 

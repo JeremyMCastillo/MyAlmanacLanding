@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "lmroman";
+  src: url("fonts/lmroman8-regular.otf") format("opentype"); }
+
 /*! bulma.io v0.4.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -101,7 +105,7 @@ button,
 input,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "lmroman", serif; }
 
 code,
 pre {
@@ -4798,3 +4802,21 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+
+section.section {
+  background-color: #FFFFFF;
+  position: relative;
+  min-height: 700px; }
+
+.hero {
+  height: 500px; }
+
+.hero img {
+  position: absolute; }
+
+span.bg-mask {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute; }

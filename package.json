@@ -4,7 +4,9 @@
   "description": "The landing and information page about the MyAlmanac App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js -e js,hbs,css",
+    "sass": "node-sass sass/ -o public/"
   },
   "author": "Jeremy Castillo",
   "license": "ISC",

@@ -6,6 +6,9 @@
     <title>{{ headingTitle }}</title>
   </head>
   <body>
+    {{#if home}}
+      {{> hero}}
+    {{/if}}
     {{> header}}
     {{> (lookup . 'content')}}
     {{> footer}}
