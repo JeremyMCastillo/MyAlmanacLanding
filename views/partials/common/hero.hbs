@@ -1,12 +1,40 @@
-<section class="hero is-large is-dark">
+<section id="home-hero" class="hero is-large is-dark">
   <img src="images/hero.jpeg" alt="MyAlmanac">
   <span class="bg-mask">
   <div class="hero-body">
       <div class="container">
         <div class="content is-large">
-          <h1 class="title"><strong>MyAlmanac</strong></h1>
-          <div class="subtitle">
-            Make a Record of You
+          <div class="columns">
+            <div class="column">
+              <h1 class="title"><strong>MyAlmanac</strong></h1>
+              <div class="subtitle">
+                Make a Record of You
+              </div>
+            </div>
+            <div class="column">
+              <form action="login">
+                <div class="columns">
+                  <div class="column field">
+                    <label class="label is-dark is-medium">Username</label>
+                    <div class="control">
+                      <input type="text" name="username" value="" class="input">
+                    </div>
+                  </div>
+                  <div class="column field is-dark">
+                    <label class="label is-dark is-medium">Password</label>
+                    <div class="control">
+                      <input type="password" name="password" value="" class="input">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <label class="label is-dark is-medium is-hidden-mobile">&nbsp;</label>
+                    <div class="control">
+                      <input type="submit" value="Log In" class="button is-primary">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

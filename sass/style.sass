@@ -1,21 +1,34 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables"
+@import "../node_modules/font-awesome/scss/_variables"
+@import "../node_modules/font-awesome/scss/_mixins"
+@import "../node_modules/font-awesome/scss/_path"
+@import "../node_modules/font-awesome/scss/_core"
 
 @font-face
   font-family: "lmroman"
   src: url('fonts/lmroman8-regular.otf') format('opentype')
 
+@font-face
+  font-family: "nimbus"
+  src: url('fonts/NimbusSanL-Reg.otf') format('opentype')
+
+$family-nimbus: "nimbus", sans-serif
 $family-lmroman: "lmroman", serif
 
-$family-primary: $family-lmroman
+$family-primary: $family-nimbus
 
 @import "../node_modules/bulma/bulma"
+@import "../node_modules/font-awesome/scss/_icons"
+
+.title, label.label
+  font-family: $family-lmroman
 
 section.section
   background-color: #FFFFFF
   position: relative
   min-height: 700px
 
-.hero
+#home-hero
   height: 500px
 
 .hero img
@@ -27,3 +40,13 @@ span.bg-mask
   width: 100%
   background-color: rgba(0, 0, 0, 0.3)
   position: absolute
+
+label.label.is-dark.is-medium
+  color: $light
+
+nav.navbar
+  padding: 0 5%
+
+footer.footer
+  position: relative
+  z-index: 100
