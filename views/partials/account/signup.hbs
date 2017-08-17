@@ -18,22 +18,21 @@
         <section id="signup">
           <div class="container">
             <form class="form" action="signup" method="post">
-              <div class="field is-grouped">
-                <div class="control">
-                  <label class="label">First Name</label>
-                  <input class="input" type="text" name="firstName" value="">
-                </div>
-                <div class="control">
-                <label class="label">Last Name</label>
-                  <input class="input" type="text" name="lastName" value="">
-                </div>
-              </div>
               <div class="field">
                 <label class="label">Email</label>
                 <div class="control has-icons-left">
-                  <input class="input" type="email" name="email" value="">
+                  <input class="input" type="email" name="email" value="{{email}}">
                   <span class="icon is-left">
                     <i class="fa fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="password" name="password" value="">
+                  <span class="icon is-left">
+                    <i class="fa fa-lock"></i>
                   </span>
                 </div>
               </div>
