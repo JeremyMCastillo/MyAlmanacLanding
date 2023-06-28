@@ -23,6 +23,6 @@
     "request": "^2.81.0",
     "sass-loader": "^6.0.6",
     "scroll-parallax": "^2.0.2",
-    "webpack": "^3.5.4"
+    "webpack": "^5.88.1"
   }
 }
