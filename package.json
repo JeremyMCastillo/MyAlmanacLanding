@@ -20,7 +20,7 @@
     "font-awesome": "^4.7.0",
     "hbs": "^4.0.1",
     "node-sass": "^4.5.3",
-    "request": "^2.81.0",
+    "request": "^2.88.2",
     "sass-loader": "^6.0.6",
     "scroll-parallax": "^2.0.2",
     "webpack": "^3.5.4"
