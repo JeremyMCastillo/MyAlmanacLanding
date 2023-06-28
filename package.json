@@ -13,7 +13,7 @@
   "dependencies": {
     "ajv": "^5.2.2",
     "body-parser": "^1.17.2",
-    "bulma": "^0.4.3",
+    "bulma": "^0.9.4",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
     "express-session": "^1.15.5",
